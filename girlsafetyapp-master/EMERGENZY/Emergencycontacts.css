@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: lightcyan
+  }
+  
+  #emergency-contacts {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #emergency-contacts li {
+    margin-bottom: 10px;
+  }
+  
+  .contact-type {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .contact-number {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .fas {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #666;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  #emergency-sos-form {
+    width: 50%;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #message {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+  }
+  
+  #send-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #send-button:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* #location-container {
+    width: 50%;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+   */
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  #map-container {
+    width: 80%;
+    height: 600px;
+    margin: 40px auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #map {
+    width: 100%;
+    height: 100%;
+  }
+  

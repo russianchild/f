@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Emergency Contacts</title>
+  <link rel="stylesheet" href="Emergencycontacts.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY"></script>
+</head>
+<body>
+  <h1>Emergency Contacts</h1>
+  <ul id="emergency-contacts">
+    <li>
+      <i class="fas fa-police"></i>
+      <span class="contact-type">Police</span>
+      <span class="contact-number">100</span>
+    </li>
+    <li>
+      <i class="fas fa-fire"></i>
+      <span class="contact-type">Fire</span>
+      <span class="contact-number">101</span>
+    </li>
+    <li>
+      <i class="fas fa-medkit"></i>
+      <span class="contact-type">Medical</span>
+      <span class="contact-number">102</span>
+    </li>
+    <li>
+      <i class="fas fa-exclamation-triangle"></i>
+      <span class="contact-type">Disaster</span>
+      <span class="contact-number">103</span>
+    </li>
+    <li>
+      <i class="fas fa-female"></i>
+      <span class="contact-type">Women's Helpline</span>
+      <span class="contact-number">1091</span>
+    </li>
+    <li>
+      <i class="fas fa-child"></i>
+      <span class="contact-type">Child Helpline</span>
+      <span class="contact-number">1098</span>
+    </li>
+    <li>
+      <i class="fas fa-train"></i>
+      <span class="contact-type">Railway Enquiry</span>
+      <span class="contact-number">139</span>
+    </li>
+    <li>
+      <i class="fas fa-phone"></i>
+      <span class="contact-type">Other Emergency</span>
+      <span class="contact-number">199</span>
+    </li>
+  </ul>
+  <h1>Emergency SOS Message</h1>
+  <form id="emergency-sos-form">
+    <label for="message">Add message to emergency SOS:</label>
+    <textarea id="message" name="message" placeholder="Type your message here..."></textarea>
+    <button id="send-button">Send</button>
+  </form>
+  <h1></h1>
+  <div id="map-container">
+    <div id="map"></div>
+    
+  </div>
+
+  <script src="Emergencycontacts.js"></script>
+  
+</body>
+</html>

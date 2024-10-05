@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="safety.css">
+    
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="app-header">
+            <h1>Emergenzy</h1>
+            <p>Safety at your fingertips</p>
+        </header>
+
+        <!-- Emergency Alert Button -->
+        <button id="panic-button" class="button panic">🚨 Panic Button</button>
+
+        <!-- Location Tracking -->
+        <button id="location-tracker" class="button tracker">📍 Track My Location</button>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.409441945982!2d72.88664277502667!3d19.04572748215257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8add9569a29%3A0xb7ad04bf9a389df7!2sVivekanand%20Education%20Society&#39;s%20Institute%20Of%20Technology%20(VESIT)!5e0!3m2!1sen!2sin!4v1728112960518!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p id="location-status"></p>
+
+        <!-- Google Map -->
+        <div id="map" class="map-container"></div>
+
+        <!-- Safety Resources -->
+        <button id="safety-resources" class="button resources">📚 Safety Resources</button>
+        <div id="resources-list" class="hidden">
+            <ul>
+                <li><a href="self-defense.html" target="_blank">
+					Self-Defense Tips</a></li>
+                <li><a href="Emergencycontacts.html" target="_blank">Emergency Contacts</a></li>
+                <li><a href="http://ncw.nic.in/helplines#:~:text=Information%20and%20Services%20related%20with%20AIDS%20:%20Govt%20AIDS%20Helpline" target="_blank">Helpline Numbers</a></li>
+            </ul>
+        </div>
+
+        <!-- Education Material -->
+        <button id="education-material" class="button education">📖 Education Material</button>
+        <div id="education-list" class="hidden">
+            <ul>
+                <li><a href="https://www.mha.gov.in/en/divisionofmha/women-safety-division#:~:text=The%20'Women%20Safety%20Division'%20was%20established%20on%20May%2028,%202018," target="_blank">Women's Safety Laws</a></li>
+                <li><a href="https://www.fightsense.com/blog/selfprotection-for-women/#:~:text=3.%20Self-Defense%20Training.%20Physical%20self-defense%20is%20a%20key%20component%20of" target="_blank">Basic First Aid</a></li>
+                <li><a href="https://safecity.mha.gov.in/#:~:text=An%20initiative%20of%20Govt.%20of%20India%20under%20the%20Nirbhaya%20funds" target="_blank">Safety Apps Guide</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="project.js"></script>
+</body>
+</html>

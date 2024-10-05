@@ -1,0 +1,45 @@
+body{
+background-image: url(pexels-112-uttar-pradesh-2709195-13062467.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+.tips {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .tip {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 10px;
+    width: calc(33.33% - 20px);
+  }
+  
+  .tip img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .bg {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: red;
+    background-image: no-repeat;
+  }
+  
+  .bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-image: no-repeat;
+
+
+  }
